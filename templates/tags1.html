@@ -1,0 +1,24 @@
+{#{% for tag in tags %}#}
+{#         <li>       <!-- 标题 -->#}
+{#             <h5 class="card-header">{{ tag.name}}</h5>#}
+{#         </li>#}
+{#{% endfor %}#}
+
+{#<div class="breadcrumb">您的位置： <a itemprop="breadcrumb" href="{% url 'index' %}">首页</a> » <span#}
+{#class="current">标签：{{ tname }}</span></div>#}
+
+<div class="main-title">
+    <h4 class="post-left-title">标签：{{ tname }}</h4>
+</div>
+
+{% for tag in tags %}
+         <li>       <!-- 标题 -->
+             <h5 class="card-header">{{ tag.name}}</h5>
+         </li>
+{% endfor %}
+
+{% for list1 in list %}
+         <li>       <!-- 标题 -->
+             <h5 class="card-header">{{ list1.title}}</h5>
+         </li>
+{% endfor %}

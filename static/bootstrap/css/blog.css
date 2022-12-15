@@ -1,0 +1,97 @@
+#body {background-color: blue;}
+#body {
+#    background: url(/static/blog/css/gray-background.jpg) no-repeat fixed center; 
+#    background-size: cover; 
+#}
+
+## below is to set background picture on different devices
+#@media only screen and (orientation:portrait) {
+#    body {
+#        background-color: #F5F5F5;
+#        background: url(https://www.byincd.com/diary/wp-content/uploads/2019/01/free-wallpaper-hd-wallpaper-leaves-1454794-03-576x1024.jpg) no-repeat fixed;
+#        -webkit-background-size: auto auto;
+#    }
+#}
+#@media only screen and (orientation:landscape) and (max-device-width:840px) {
+#    body {
+#        background-color: #F5F5F5;
+#        background: url(https://www.byincd.com/diary/wp-content/uploads/2019/01/free-wallpaper-hd-wallpaper-leaves-1454794-1024x576.jpg) no-repeat fixed;
+#        -webkit-background-size: auto auto;
+#    }
+#}
+#@media only screen and (orientation:landscape) and (min-device-width:840px) {
+#    body {
+#        background-color: #F5F5F5;
+#        background: url(https://www.byincd.com/diary/wp-content/uploads/2019/01/free-wallpaper-hd-wallpaper-leaves-1454794-02-1024x576.jpg) no-repeat fixed center rgba(0,0,0,0.1);
+#        background-size: 100% 100%;
+#    }
+#}
+
+
+#body {
+#    background-color: #F5F5F5;
+#}
+
+h1 a {
+    font-family: "Raleway", "HYLeMiaoTi","KaiTi","Arial";
+}
+
+span.highlighed {
+    color: red;
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 3px;
+}
+
+pre {
+    display: block;
+    padding: 9px;
+    margin: 0 0 20px;
+    font-size: 13px;
+    line-height: 1.428571429;
+    word-break: break-all;
+    word-wrap: break-world;
+    color: lighten(#000, 20%);
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.separator {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+table,table tr th, table tr td {
+  border: 2px solid #ccc;
+}
+
+#beian {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: none;
+}
+
+#beian a {
+  color: gray;
+}
+
+#visit_stat {
+  height: 400px;
+  margin: auto;
+}

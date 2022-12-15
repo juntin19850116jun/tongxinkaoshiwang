@@ -1,0 +1,119 @@
+body {
+  background: no-repeat fixed center rgba(0,0,0,0.1);
+  background-image: url(/media/background/main/KMn4VEeEPR8-1140x758.jpg);
+  background-size: 100% 100%;
+}
+
+@media only screen and (orientation:portrait) and (max-width: 768px) {
+  body {
+    background-image: url(/media/background/main/mobile/summer_sea_beach.jpg);
+  }
+}
+
+.site-heading {
+  margin: 15% 60px 90px;
+  padding: 20px 0 0;
+  color: white;
+  text-align: center;
+}
+
+.site-heading-bak {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 100%;
+}
+
+.site-heading h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#site-include {
+  padding: 20px 0px 10px;
+}
+
+#my-info {
+  color: black;
+  padding: 10px 0px 20px;
+}
+
+#copyright {
+  padding: 20px;
+}
+
+#my-info .list-inline p {
+  display:none;
+}
+
+#my-info .list-inline span:hover+p, footer .list-inline p:hover {
+  display:inline-block;
+}
+
+footer .list-inline p {
+  display:none;
+}
+
+footer .list-inline span:hover+p, footer .list-inline p:hover {
+  display:inline-block;
+}
+
+footer.footer {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+footer .my-info {
+  color: gray;
+}
+
+@media only screen and (min-width: 768px) {
+  footer.footer {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+  }
+}
+
+#beian {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: none;
+}
+
+#beian a {
+  color: gray;
+}
+
+#search-elements {
+  margin: 0px auto;
+}
+
+@media only screen and (min-width: 768px) {
+  #search-elements {
+    margin: 0px auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #search-elements input {
+    width: 50%;
+  }
+}
